@@ -70,8 +70,8 @@ var attendees = 9;
 var meals = 8;
 console.log(attendees != meals);
 // YOU DO: Explain.
-//
-
+//This is saying var attendees does not equal var meals
+// true
 // #-------------------
 // PART 3: Logical Operators
 // #-------------------
@@ -81,8 +81,10 @@ var finishedHomework = false;
 
 // EXAMPLE:
 // Determine if the user is hungry and has completed their homework
+//Since this is an && statement both variable have to be the same so they have not done both this is false
 console.log(isHungry && finishedHomework);
 // Determine if the user is hungry or has completed their homework
+// Since this is an "or" statement this is correct
 console.log(isHungry || finishedHomework);
 
 var lovesToPlay = true;
@@ -92,15 +94,16 @@ var age = 1;
 
 // YOU DO:
 // Determine if the dog loves to play and loves treats
-
-
+console.log(lovesToPlay && lovesTreats);
+//False
 // Determine if the dog loves to play and loves the dog park
-
-
+console.log(lovesToPlay && lovesDogPark);
+//True
 // Determine if the dog loves to play or loves the dog park
-
-
+console.log(lovesToPlay || lovesDogPark);
+//True
 // Determine if the dog loves to play and is a puppy
-
+console.log(lovesToPlay && isAPuppy);
 // What did your final line of code evaluate to? Why do you think that is? Explain.
 // ANSWER:
+// isAPuppy was undefined. Since there is no variable for isAPuppy there is no answer for that 
