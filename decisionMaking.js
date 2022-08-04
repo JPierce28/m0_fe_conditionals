@@ -3,9 +3,9 @@
 // Spend some time changing the variables and running the file to see how the story changes.
 
 
-var doorChoice = 1;
-var bearClothing = "";
-var bearChoice = 1;
+var doorChoice = 2;
+var bearClothing = "startingValue";
+var bearChoice = 3;
 
 console.log("You enter a dark room with two doors. Do you go through #1 or #2?");
 
